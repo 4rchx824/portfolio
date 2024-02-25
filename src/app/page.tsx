@@ -75,7 +75,7 @@ export default async function Home() {
           </Link>
         </div>
 
-        <CardContainer className="w-full max-w-sm md:max-w-3xl">
+        <CardContainer className="w-full max-w-sm md:max-w-3xl px-8">
           <ConnectCard />
         </CardContainer>
       </div>
