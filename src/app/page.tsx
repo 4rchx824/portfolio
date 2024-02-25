@@ -12,7 +12,8 @@ import Link from "next/link";
 import Belt from "@/components/belt";
 
 export const metadata: Metadata = {
-  title: "Archie's Portfolio",
+  title: "Archie",
+  description: "Hi, I'm Archie!"
 };
 
 export default async function Home() {
