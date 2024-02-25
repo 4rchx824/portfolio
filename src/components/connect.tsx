@@ -7,7 +7,7 @@ import { CardBody, CardItem } from "./ui/3d-card";
 
 export default function ConnectCard() {
   return (
-    <CardBody className="border border-white/[0.2] flex flex-col items-center max-w-sm mx-auto p-4 relative h-[30rem]">
+    <CardBody className="border border-white/[0.2] flex flex-col items-center w-full max-w-sm mx-auto p-4 relative h-[30rem]">
       <CardItem className="absolute -top-3 -left-3" translateZ={30}>
         <Icon className="h-6 w-6 text-white" />
       </CardItem>
