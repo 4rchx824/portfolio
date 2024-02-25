@@ -38,7 +38,7 @@ export default async function Home() {
         />
       </div>
 
-      <div className="items-center justify-between flex flex-col md:flex-row w-full px-36 space-x-36">
+      <div className="items-center justify-between flex flex-col md:flex-row w-full px-8 md:px-36 md:space-x-36">
         <div className="flex flex-col w-full justify-between h-[256px]">
           <div className="flex flex-col">
             <TypewriterEffectSmooth
@@ -75,7 +75,7 @@ export default async function Home() {
           </Link>
         </div>
 
-        <CardContainer className="w-full max-w-3xl">
+        <CardContainer className="w-full max-w-sm md:max-w-3xl">
           <ConnectCard />
         </CardContainer>
       </div>

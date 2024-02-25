@@ -27,7 +27,7 @@ export default function ConnectCard() {
       <EvervaultCard text="Contact" />
 
       <CardItem
-        className="flex items-center justify-center space-x-4"
+        className="flex items-center justify-center space-x-4 pt-8 pb-4"
         translateZ={30}
       >
         <IconContainer href="https://github.com/4rchx824">

@@ -73,9 +73,19 @@ type Props = {};
 
 const Belt = (props: Props) => {
   return (
-    <div className="pt-24 w-full flex flex-col items-center justify-center">
-      <InfiniteMovingCards items={belt_1} speed="slow" direction="right" />
-      <InfiniteMovingCards items={belt_2} speed="slow" direction="left" />
+    <div className="pt-24 w-full px-8 md:max-w-none flex flex-col items-center justify-center">
+      <InfiniteMovingCards
+        className="w-full"
+        items={belt_1}
+        speed="slow"
+        direction="right"
+      />
+      <InfiniteMovingCards
+        className="w-full"
+        items={belt_2}
+        speed="slow"
+        direction="left"
+      />
     </div>
   );
 };
