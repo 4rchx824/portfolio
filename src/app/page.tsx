@@ -42,11 +42,11 @@ export default async function Home() {
         <div className="flex flex-col w-full justify-between h-[256px]">
           <div className="flex flex-col">
             <TypewriterEffectSmooth
-              cursorClassName="bg-white w-[2px] md:w-[4px] !h-14"
+              cursorClassName="bg-white w-[2px] md:w-[4px] h-10 md:h-14"
               words={[
-                { text: "Hi, ", className: "text-white text-6xl" },
-                { text: "I'm ", className: "text-white text-6xl" },
-                { text: "Archie.", className: "text-white text-6xl" },
+                { text: "Hi, ", className: "text-white text-4xl md:text-6xl" },
+                { text: "I'm ", className: "text-white text-4xl md:text-6xl" },
+                { text: "Archie.", className: "text-white text-4xl md:text-6xl" },
               ]}
             />
 
@@ -75,7 +75,7 @@ export default async function Home() {
           </Link>
         </div>
 
-        <CardContainer className="w-full max-w-sm md:max-w-3xl px-8">
+        <CardContainer className="w-full max-w-sm md:max-w-3xl">
           <ConnectCard />
         </CardContainer>
       </div>
